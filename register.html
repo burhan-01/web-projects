@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body
+        {
+            margin: 0px;
+        }
+        .main{
+        display: flex;
+        justify-content: center;
+            font-family: 'Ubuntu',sans-serif;
+        opacity: calc(80%);        
+        }
+
+
+.rightside{
+    background-color:none;
+opacity: calc(100%);
+color: none;
+    width: 50%;
+    border: 2px  ;
+    text-align: center;
+    padding: 80px 50px;
+    box-sizing: border-box;
+
+
+}
+.group{display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.groupleft{
+    width: 48%;
+    
+}
+.groupright{
+    width: 48%;
+}
+input{
+width: 100%;
+height: 40px;
+padding-left: 10px ;
+box-sizing: border-box;
+margin-bottom: 30px;
+border: none;
+border-radius: 8px;
+text-shadow: 3px 2px 3px #28314E;
+box-shadow: 2px 2px 3px #28314E;
+
+}
+.formbtn{
+    width:100%;
+    height: 40px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 8px;
+    
+}
+.formbtn:hover{background-color: #28314E;}
+    button
+    {
+        box-shadow:3px 3px 5px #28314E;
+    }
+    .ul{
+        list-style-position: inside;
+        width: 200px;
+    
+    }
+    </style>
+</head>
+<body>
+  <div class="main">
+    <div class="rightside">   
+                <form>
+        <h2>Register Form</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dolor!</p>
+    <div class="group">
+                    <div class="groupleft">
+                        <input type="text" placeholder="Enter First Name">
+                    </div>
+                    <div class="groupright">
+                        <input type="text" placeholder="Enter Last Name">
+                    </div>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Enter Email"> 
+                    </div>
+                    <div>
+                        <input type="password" placeholder="Enter Password">
+                    </div>
+                    <div>
+                    <button type="submit" class="formbtn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
